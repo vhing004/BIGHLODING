@@ -234,6 +234,9 @@ input {
     height: 25px;
     flex-shrink: 0;
   }
+  .header-logo img {
+    object-fit: contain;
+  }
   .header-flag-img {
     display: none;
   }

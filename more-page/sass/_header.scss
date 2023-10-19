@@ -164,6 +164,9 @@
     &-logo {
       height: 25px;
       flex-shrink: 0;
+      & img {
+        object-fit: contain;
+      }
     }
     &-flag-img {
       display: none;
